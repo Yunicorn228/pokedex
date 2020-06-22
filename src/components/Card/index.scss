@@ -1,0 +1,89 @@
+.pokemon-card {
+	background-color: #fff;
+	border-radius: 5px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+
+	&:hover {
+		background-color: #eee;
+	}
+
+	h1 {
+		text-align: center;
+	}
+
+	img {
+		width: 200px;
+		height: auto;
+	}
+
+	span {
+		display: inline-block;
+		color: #fff;
+		background-color: #555;
+		padding: 5px;
+		margin: 5px;
+		border-radius: 5px;
+	}
+	.Water {
+		background-color: #4287f5;
+	}
+	.Bug {
+		background-color: #5c3323;
+	}
+	.Dark {
+		background-color: #000;
+	}
+	.Dragon {
+		background-color: rgb(67, 126, 67);
+	}
+	.Electric {
+		background-color: rgb(126, 126, 18);
+	}
+	.Fairy {
+		background-color: pink;
+	}
+	.Fighting {
+		background-color: #655da3;
+	}
+	.Fire {
+		background-color: rgb(235, 104, 28);
+	}
+	.Flying {
+		background-color: #27968b;
+	}
+	.Ghost {
+		background-color: #744c6e;
+	}
+	.Grass {
+		background-color: green;
+	}
+	.Ground {
+		background-color: #4a392f;
+	}
+	.Ice {
+		background-color: #8cdded;
+	}
+	.Normal {
+		background-color: #555;
+	}
+	.Poison {
+		background-color: #562666;
+	}
+	.Psychic {
+		background-color: #54581f;
+	}
+	.Rock {
+		background-color: #7e4723;
+	}
+	.Steel {
+		background-color: #596066;
+	}
+	.Water {
+		background-color: #5d70d8;
+	}
+}
